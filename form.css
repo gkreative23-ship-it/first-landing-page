@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+    max-height: 90vh;
+}
+
+
+
+.logo{
+    color: red;
+    width: 20%;
+    font-weight: bolder;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(red-abstract-smoke-curves-wave-black-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: initial;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+nav ul{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+    transition: 0.5s;
+    margin-right: 30px;
+}
+
+
+nav ul li a:hover{
+    color: hsl(0, 85%, 35%);
+}
+
+
+.register{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 70px;
+    
+}
+
+form{
+    width: 100%;
+    border-radius: 20px;
+    border-color: rgb(77, 76, 75);
+    border-style: hidden;
+    box-sizing: border-box;
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.mySubmit{
+    padding: 5px;
+    background-color: red;
+    color: antiquewhite;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+.mySubmit:hover{
+background-color: rgb(161, 10, 10);
+}
+
+
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+
+footer nav h3{
+    padding: 5px;
+}
+
+.foot{
+   display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.darkenbtn{
+    background-color: darkred;
+}
+
+.darkenbtn:active{
+    background-color: green;
+}
+
+.myh3{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+}

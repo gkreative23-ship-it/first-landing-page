@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0a0a0f;
+    color: #f0eef6;
+}
+
+header{
+    width: 100%;
+    max-height: 60vh;
+}
+.logo{
+    color: #661fcf;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-family: 'Helvetica';
+}
+
+nav{
+    width: 100%;
+    padding: 10px;
+    background-color: #b68707;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    font-weight: bolder;
+}
+
+nav ul{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 7px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #661fcf;
+    color: #f0eef6;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7b5ea7;
+    
+}
+
+nav ul li a {
+    color: #f0eef6;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #c9a84c;
+}
+
+.head{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head p{
+    text-align: center;
+    word-break: break-all;
+}
+
+ .problem-content{
+width: 100%;
+min-height: 60vh;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 40px;
+ }
+
+ .problem-content p{
+    margin: 3px;
+ }
+
+.text{
+    width: 45%;
+
+}
+ 
+.text h3{
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: lighter;
+color: #b68707;
+}
+
+
+.text span{
+    color: #661fcf;
+    font-weight: bolder;
+}
+
+
+
+.img1 img{
+    width: 300px;
+    height: 50vh;
+}
+
+.img2 img{
+    width: 300px;
+    height: 50vh;
+}
+
+.mainbtn{
+    padding: 5px;
+    background-color: #b68707;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.mainbtn:hover{
+    background-color: #b68707;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer nav h3{
+    padding: 5px;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+    background-color: #b68707;
+    padding: 10px;
+}
+
+.hero{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(business-strategy-concept-with-figures-chessboard-blurred-wooden-table-close-up.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f0eef6;
+    font-family: 'cambria';
+    height: 50vh;
+}
+
+.display{
+width: 100%;
+}
+.display h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    color: #b68707;
+}
+
+.list-of-services{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 30px;
+}
+.marketing p{
+    text-align: left;
+}
+
+.marketing span{
+    color: #661fcf;
+}
+.marketing img{
+    width:100%;
+}
+
+.brand img{
+    width:100%;
+}
+
+.messaging img{
+    width: 100%;
+}
+
+.positioning img{
+    width: 100%;
+}
+
+.identity img{
+    width: 100%;
+}
+
+.website img{
+    width:100%;
+}
+.website span{
+color: #661fcf;
+}
+.process{
+    width: 100%;
+}
+
+
+.process h3{
+    padding: 20px;
+    font-size: 35px;
+    color: #661fcf;
+    text-align: center;
+}
+
+.steps{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.mainbtn{
+    background-color: #661fcf;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.mainbtn:hover{
+    background-color: #7b5ea7;
+}
+
+
+
+.foot a{
+text-decoration: none;
+color: black;
+}
+
+.services{
+    margin-bottom: 70px;
+}
