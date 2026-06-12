@@ -104,8 +104,8 @@ button:hover{
 .head h1{
     text-align: center;
     margin-top: 100px;
-    font-size: 35px;
-    font-weight: bolder;
+    font-size: 38px;
+    font-weight: 700;
     color: #b68707;
     font-family: 'Helvetica';
 }
@@ -113,8 +113,11 @@ button:hover{
 .head h2{
     text-align: center;
     word-break: break-all;
-    font-size: 15px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 19px;
     margin: 5px;
+    letter-spacing: 0.5px;
 }
 
  .problem-content{
@@ -128,8 +131,11 @@ align-items: center;
 gap: 40px;
  }
 
- .problem-content p{
+ p{
     margin: 3px;
+    font-weight: 400;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    line-height: 1.6;
  }
 
 .text{
@@ -137,17 +143,23 @@ gap: 40px;
 
 }
  
-.text h3{
-font-size: 25px;
+h2{
+font-size: 29px;
 font-family: 'Helvetica';
-font-weight: lighter;
+letter-spacing: 0.5px;
+font-weight: 300;
 color: #b68707;
+margin-bottom: 20px;
 }
 
-
+.text h3{
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
 .text span{
     color: #b68707;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 
@@ -208,12 +220,19 @@ footer nav h3{
 .display{
 width: 100%;
 }
-.display h2{
+
+.display-head{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 10px;
+
+}
+.display-head h2{
     text-align: center;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
-    color: #b68707;
+    
 }
 
 .list-of-services{
@@ -224,9 +243,9 @@ width: 100%;
     margin: 10px;
 }
 
-.list-of-services h4{
+h4{
     color: #b68707;
-    font-family: 'Helvetica';
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .marketing p{
@@ -282,7 +301,8 @@ color: #661fcf;
 }
 
 .steps h4{
-    color: #b68707;
+    color: #f0eef6;
+    font-size: 17px;
     font-family: 'Helvetica';
 }
 
@@ -316,4 +336,8 @@ color: black;
 
 .services{
     margin-bottom: 70px;
+}
+
+footer h4{
+    color: #0a0a0f;
 }
