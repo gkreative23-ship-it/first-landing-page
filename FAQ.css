@@ -109,3 +109,21 @@ h2{
     border-radius: 9px;
     border-style: hidden;
 }
+
+button{
+    padding: 9px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #661fcf;
+    color: #f0eef6;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+    transition: 1s ease;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7b5ea7;
+    
+}
