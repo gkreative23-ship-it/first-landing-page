@@ -429,3 +429,7 @@ footer h4{
         flex-direction: row;
     }
 }
+
+calendly-inline-widget{
+    color: #f0eef6;
+}
