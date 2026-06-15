@@ -401,6 +401,8 @@ footer h4{
         width: 100%;
         padding: 0 16px;
         box-sizing: border-box;
+        min-height: 60vh;
+        margin-bottom: 10px;
     }
 
     .head h1{
