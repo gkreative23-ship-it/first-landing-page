@@ -96,10 +96,6 @@ form input{
 }
 
 
-
-
-
-
 footer nav{
     display: flex;
     justify-content: space-evenly;
@@ -128,7 +124,37 @@ footer nav h3{
 }
 
 .myh3{
+    width: 90%;
     color: aliceblue;
     text-align: center;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:480px){
+    nav{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .myh3{
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+    nav ul{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+      footer nav{
+        display: flex;
+        flex-direction: row;
+    }
 }

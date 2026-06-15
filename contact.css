@@ -134,3 +134,20 @@ button:hover{
     background-color: #7b5ea7;
     
 }
+
+@media(max-width:480px){
+    nav{
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .logo{
+        width: 20%;
+    }
+  }

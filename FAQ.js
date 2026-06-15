@@ -20,3 +20,8 @@ function showAnswer(){
 function hideAnswer(){
     hide.innerHTML='';
 }
+
+
+function moveToForm(){
+    window.location.href="form.html"
+}
