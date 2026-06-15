@@ -42,7 +42,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 nav ul li{
@@ -125,5 +125,23 @@ button{
 
 button:hover{
     background-color: #7b5ea7;
+    
+}
+
+
+@media(max-width:480px){
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 5px;
+        margin-right: 20px;
+        
+    }
+
+     
     
 }

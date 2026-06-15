@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body{
@@ -36,7 +36,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 nav ul li{
@@ -112,7 +112,6 @@ button:hover{
 
 .head h2{
     text-align: center;
-    word-break: break-all;
     font-family: 'Helvetica';
     font-weight: 300;
     font-size: 19px;
@@ -365,4 +364,68 @@ footer h4{
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+@media(max-width:480px){
+    nav{
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    .problem-content{
+        flex-wrap: wrap;
+    }
+
+    .text{
+        width: 85%;
+        
+    }
+
+    
+
+    .head{
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .head h1{
+        font-size: 25px;
+        margin-bottom: 40px;
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+    .head h2{
+        font-size: 20px;
+    }
+
+    .list-of-services{
+        grid-template-columns: 40% 40%;
+    }
+
+    .steps{
+        grid-template-columns: 40% 40%;
+        gap: 20px;
+    }
+
+    .about button{
+        width: 60%;
+        line-height: 1.6;
+    }
+
+    footer nav{
+        display: flex;
+        flex-direction: row;
+    }
 }
