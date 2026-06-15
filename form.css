@@ -73,7 +73,7 @@ nav ul li a:hover{
 form{
     display: flex;
     flex-direction: column;
-    background-color: #7b5ea7;
+    background-color: #f0eef6;
     width: 50%;
     border-radius: 20px;
     padding: 15px;
@@ -81,6 +81,7 @@ form{
     border-style: hidden;
     box-sizing: border-box;
     margin: 20px;
+    color: #0a0a0f;
 }
 
 form input{
@@ -94,42 +95,15 @@ form input{
     border-style: hidden;
 }
 
-form textarea{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
 
 
-.mySubmit{
-    width: 35%;
-    padding: 8px;
-    text-align: center;
-    border-radius: 5px;
-    border-style: hidden;
-    background-color: #661fcf;
-    color: #f0eef6;
-    font-family: 'Helvetica';
-    font-weight: bolder;
-    transition: 1s ease;
-    font-size: 15px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.5s;
-}
-.mySubmit:hover{
-background-color: #7b5ea7;
-}
+
 
 
 footer nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #f0eef6;
     background-color: #c9a84c;
 }
 
@@ -137,6 +111,13 @@ footer nav h3{
     padding: 5px;
 }
 
+.foot{
+   display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    padding: 10px;
+}
 
 .darkenbtn{
     background-color: darkred;
